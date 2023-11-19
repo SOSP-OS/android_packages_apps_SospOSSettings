@@ -18,6 +18,13 @@
     android:title="@string/gestures_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    
+    <com.sospos.support.preferences.SecureSettingSwitchPreference
+        android:key="navigation_bar_hint"
+        android:title="@string/show_navbar_gesture_bar_title"
+        android:summary="@string/show_navbar_gesture_bar_summary"
+        android:defaultValue="false" />
+        
     <com.sospos.support.preferences.SystemSettingSwitchPreference
         android:key="swipe_to_screenshot"
         android:title="@string/three_finger_gesture"
