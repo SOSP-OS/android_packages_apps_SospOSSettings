@@ -16,6 +16,12 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Title -->
+    <string name="sospos_settings_title">Sosp-OS Settings</string>
+
+    <!-- Menu -->
+    <string name="gestures_title">Gestures</string>
+      
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
@@ -39,5 +45,16 @@
     <string name="custom_seekbar_default_value">Default</string>
     <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
     <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+    
+    <!-- Double Tap Category-->
+    <string name="dtts_category_header">Double Tap To Sleep Gesture</string>
+    
+    <!-- Double Tap Lockscreen to Sleep Gesture -->
+    <string name="double_tap_to_sleep_lockscreen_title">Lockscreen</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the lock screen to put the device to sleep</string>
+    
+    <!-- Double Tap On Statusbar to Sleep Gesture -->
+    <string name="double_tap_to_sleep_title">Status bar</string>
+    <string name="double_tap_to_sleep_summary">Double-tap status bar to put the device to sleep</string>
 
 </resources>
