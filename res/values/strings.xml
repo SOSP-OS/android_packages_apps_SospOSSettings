@@ -21,6 +21,7 @@
 
     <!-- Menu -->
     <string name="gestures_title">Gestures</string>
+    <string name="notifications_title">Notifications</string>
       
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>

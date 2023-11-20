@@ -7,18 +7,17 @@ import com.android.settings.R;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-public class GestureSettings extends SettingsPreferenceFragment {
+public class NotificationSettings extends SettingsPreferenceFragment {
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-        addPreferencesFromResource(R.xml.sospos_gestures);
+    public void onCreate(Bundle icicle) {
+        super.onCreate(icicle);
+        
+        addPreferencesFromResource(R.xml.sospos_notifications);
     }
 
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.SOSP_Metric;
     }
-
 }

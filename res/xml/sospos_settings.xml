@@ -17,11 +17,21 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/sospos_settings_title" >
             
-        <!-- Gestures -->
+        
+         <!-- Gestures -->
         <Preference
             android:key="gestures_category"
             android:title="@string/gestures_title"
             android:fragment="com.sospos.settings.fragments.GestureSettings"
             android:icon="@drawable/ic_settings_gesture"/>
+            
+            
+        <!-- Notifications And Alerts -->
+        <Preference
+            android:key="notifications_category"
+            android:title="@string/notifications_title"
+            android:fragment="com.sospos.settings.fragments.NotificationSettings"
+            android:icon="@drawable/ic_settings_notification"/>
+        
 
 </PreferenceScreen>
