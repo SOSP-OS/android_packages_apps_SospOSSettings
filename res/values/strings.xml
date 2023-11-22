@@ -21,6 +21,7 @@
 
     <!-- Menu -->
     <string name="gestures_title">Gestures</string>
+    <string name="lockscreen_title">Lock screen</string>
     <string name="notifications_title">Notifications</string>
       
     <!-- Color Picker -->
